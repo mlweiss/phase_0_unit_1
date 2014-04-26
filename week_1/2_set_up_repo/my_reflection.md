@@ -5,7 +5,8 @@
   To create a repository on GitHub is rather straightforward. There is a link on the website that prompts
   a user to fill in certain forms and give the repository a name. To clone the repository to my local computer, a 
   Linux machine running Fedora, I used the command line prompt. The commands "git clone [HTML URL].git" worked to do this.
-  I also tried using git init in the command prompt to make a repository but found that I could not exit successfully the   commit message (when prompted to add a description of my commit I could not find the keyboard command to exit the text   editor)
+  I also tried using git init in the command prompt to make a repository but found that I could not exit successfully the   commit message (when prompted to add a description of my commit I could not find the keyboard command to exit the text   editor) Figured it out. It is a Vi editor. I was not familar with the protocol for entering command mode. Got
+    it now.
 
 
 * Describe what open source means
