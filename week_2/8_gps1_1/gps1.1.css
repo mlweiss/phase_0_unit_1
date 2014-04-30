@@ -1,1 +1,21 @@
-/* include your css here */
+h1
+  {
+    text-align:center;
+    font-family: sans-serif;
+  }
+a
+  {
+    text-decoration:none;
+    color: #ff69b4;
+  }
+.left-container{
+    width: 49%;
+    float:left;
+    display: block;
+    
+  }
+.right-container{
+    width: 49%;
+    display:block;
+    float: right;
+  }
