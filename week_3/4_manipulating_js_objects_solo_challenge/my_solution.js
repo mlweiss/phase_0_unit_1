@@ -16,49 +16,49 @@ var terah = {
 1. Define a variable adam and use object literal notation to assign this variable 
    the value of a JavaScript Object object with no properties.
 
-type of adam = object
+Initiate a variable called adam as a new object
 
 2. Give adam a name property with the value "Adam".
 
-value of adam = Adam.
+Assign adam a property called name with the value "Adam"
 
 3. Add a spouse property to terah and assign it the value of adam.
 
-give property terah = spouse
-spouse of terah = adam
+Assign terah a property called spouse with the value adam
 
 4. Change the value of the terah weight property to 125.
-weight of terah = 125
+Reassign the existing property of terah the value 125
 
 5. Remove the eyeColor property from terah.
-delete eyeColor of terah
+delete the property eyeColor from terah
 
 6. Add a spouse property to adam and assign it the value of terah.
-spouse of adam = terah
+assign adam a property called spouse
 
 7. Add a children property to terah and and use object literal notation to assign 
    this variable the value of a JavaScript Object object with no properties
 
-children of terah = Object
+Initiate a variable terah.children
 
 8. Add a carson property to the value of the terah children property and assign it 
   the value of an object with the property name with a value of "Carson".
 
-terah children give property carson with value "Carson"
+terah children give property carson with value "Carson"assign terah.children a property carson and assign it the value "Carson"
 
 9. Add a carter property to the value of the terah children property and assign it 
    the value of an object with the property name with a value of "Carter".
 
-terah children give property carter with value "Carter"
+same as above, switch carter and carson
 
 10. Add a colton property to the value of the terah children property and assign it 
     the value of an object with the property name with a value of "Colton".
 
-terah children give property colton with value "Colton"
+switch colton and carson in above
 
 11. Add a children property to adam and assign it the value of terah children.
 adam give property children with value terah children
 
+assign adam a property name with value terah.children
 */
 
 // __________________________________________
@@ -81,14 +81,30 @@ adam.children = terah.children;
 
 // __________________________________________
 // Reflection: Use the reflection guidelines
-// 
-// 
-// 
-// 
-// 
-// 
+/*
+What parts of your strategy worked? What problems did you face?
+What questions did you have while coding? What resources did you find to help you answer them?
+What concepts are you having trouble with, or did you just figure something out? If so, what?
+Did you learn any new skills or tricks?
+How confident are you with each of the Learning Competencies?
+Which parts of the challenge did you enjoy?
+Which parts of the challenge did you find tedious?
+
+My strategy was pretty effective. I wrote the code based on my current understanding of 
+the syntax in Javascript and tweaked it as I noticed problems. I ran in to some issues
+trying to assign names to the children properties. It took me some time to come to realize
+that I needed to initialize them separately first.
+
+I think that the pseudocode for such problems is a bit tedious, because any English
+statement feels like it could be decent pseudocode for this purpose. 
+
+I also like test driven development, but I wonder to what extent it is realistic, or better
+put to what extent it gives one the false sense that their code is bug free just because
+it passes some specified tests. I think that it will be important going forward
+to always assume code is buggy and to prove myself wrong.
 
 
+*/
 // __________________________________________
 // Driver Code:  Do not alter code below this line.
 function assert(test, message, test_number) {
