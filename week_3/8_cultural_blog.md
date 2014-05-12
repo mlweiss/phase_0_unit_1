@@ -26,4 +26,5 @@ Link to your blog on the index of your github.io site and push your changes.
 
 Share your blog on the google+ community under "Blog Posts!" Read others blogs. What did you like about them? What can you learn from others?
 
-## Release 4: Read at least 2 other students' blog posts. Try to find at least one who has the same thinking style(s) as you. Did they have similar ideas? What do you think it would be like to pair with them?
+## Release 4: 
+Read at least 2 other students' blog posts. Try to find at least one who has the same thinking style(s) as you. Did they have similar ideas? What do you think it would be like to pair with them?
